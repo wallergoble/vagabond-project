@@ -10,9 +10,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+
+ActiveRecord::Schema.define(version: 20170126211645) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+
+  create_table "cities", force: :cascade do |t|
+    t.string   "description"
+    t.string   "image_url"
+    t.string   "city"
+    t.string   "region"
+    t.string   "country"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  create_table "posts", force: :cascade do |t|
+    t.string   "author"
+    t.string   "title"
+    t.string   "body"
+    t.integer  "city_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["city_id"], name: "index_posts_on_city_id", using: :btree
+  end
+
+  add_foreign_key "posts", "cities"
 
 end
