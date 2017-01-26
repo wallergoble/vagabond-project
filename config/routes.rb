@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
 
-   resources :posts do
-     resources :comments
+   resources :cities do
+     resources :posts
    end
 
 
