@@ -8,6 +8,15 @@
 
     <section>
         <h3> Tips for <%= @city.city %> </h3>
+
+        <%  @city.posts.each do |post| %>
+        <article>
+        <h4><%= post.title %></h4>
+        <h4><%= post.author %></h4>
+        <h4><%= post.body %></h4>
+        </article>
+        <% end%>
     </section>
+
 
 </main>
