@@ -1,1 +1,13 @@
 <h1> Hello from Cities Show </h1>
+
+<main class="container">
+    <h1> <% @city.city %> </h1>
+    <section> Put a big picture here </section>
+    <section class="well"> <% @city.description %> </section>
+
+    <section>
+        <h3> Tips for <% @city.city %> </h3>
+    </section>
+<%= link_to 'Cities', welcome_path %> |
+<%= link_to 'Back', posts_path %>
+</main>
