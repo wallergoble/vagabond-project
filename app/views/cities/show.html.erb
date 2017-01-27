@@ -6,11 +6,11 @@
     <section> Put a big picture here </section>
     <section class="well"> <%= @city.description %> </section>
 
-    <section>
+    <section class="border">
         <h3> Tips for <%= @city.city %> </h3>
 
         <%  @city.posts.each do |post| %>
-        <article>
+        <article class="well">
         <h4><%= post.title %></h4>
         <h4><%= post.author %></h4>
         <h4><%= post.body %></h4>
