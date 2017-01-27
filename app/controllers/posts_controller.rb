@@ -44,7 +44,7 @@ class PostsController < ApplicationController
         @post = Post.find(1)
 
         if @post.update(post_params)
-            redirect_to @post
+            redirect_to city_path(@city)
         else
             render 'edit'
         end
