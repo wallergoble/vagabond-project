@@ -7,6 +7,11 @@
     // flex box stuff
     justify-content: center;
     align-items: center;
+        // Wrap into rows
+    flex-direction: row;
+    flex-wrap: wrap;  
+    flex-flow: row wrap;
+    align-content: flex-end;
     text-align: left;
 
     // Border stylings
