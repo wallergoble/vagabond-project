@@ -20,7 +20,7 @@
             <h4><%= post.body %></h4>
 
             <p>
-            <%= link_to 'Edit',   edit_city_post_path(post.city_id) %>
+            <%= link_to 'Edit',   edit_city_post_path(post.id) %>
             <%= link_to 'Delete', [post.city, post],
                         method: :delete,
                         data: { confirm: 'Are you sure?'} %>

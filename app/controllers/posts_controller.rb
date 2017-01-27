@@ -24,11 +24,15 @@ class PostsController < ApplicationController
         redirect_to city_path(@city)
     end
 
+    def edit
+        @post = Post.find params[:id]
+    end
+
     def update
-        @post = Post.find(1)
+        @post = Post.find params[:id]
 
         if @post.update(post_params)
-            redirect_to @post
+            redirect_to city_path @post.city_id
         else
             render 'edit'
         end
