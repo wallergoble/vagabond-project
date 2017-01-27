@@ -1,4 +1,4 @@
-
+<%= render 'partials/header' %>
 <h1> Hello from City Show </h1>
 
 <main class="container">
@@ -8,13 +8,14 @@
 
     <h3> Tips for <%= @city.city %> </h3>
 
-    <%= link_to 'Add a new post!', new_city_post_path(@city) %> 
+    <%= link_to 'Add a new post!', new_city_post_path(@city) %>
 
     <section class="flex-container">
+      <div class="index">
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-            <h4> <%= link_to post.title, city_post_path(post.city_id) %> </h4>
+            <h4> <%= link_to post.title, city_post_path(post.city_id, post.id) %> </h4>
             <br>
             <span class="author"> by <em><%= post.author %></span></em></h4>
             <h4><%= post.body %></h4>
@@ -25,10 +26,9 @@
                         data: { confirm: 'Are you sure?'} %>
             </p>
         </article>
-        <% end%>
-
+        <% end %>
+      </div>
     </section>
 
 
 </main>
-
