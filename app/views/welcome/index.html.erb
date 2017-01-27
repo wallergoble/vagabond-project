@@ -8,6 +8,8 @@
   <% @cities.each do |city| %>
   <a href="/cities/<%= city.id %>">
   <%= city.city %>
-  <%= city.image_url %>
+  <br>
+  <img src="<%= city.image_url %>">
+  <br>
   <% end %>
 </div>
