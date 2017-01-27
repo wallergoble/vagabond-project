@@ -16,7 +16,11 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     background-color: deepskyblue;
+    text-align: center;
 }
 
 .flex-container {
@@ -25,4 +29,5 @@
 
 span.author {
     font-size: 1rem;
+    font-weight: 100;
 }

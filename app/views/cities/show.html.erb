@@ -12,7 +12,9 @@
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-        <h4><%= post.title %>  <span class="author"> by <%= post.author %></span></h4>
+        <h4><%= post.title %>  
+        <br>
+        <span class="author"> by <em><%= post.author %></span></em></h4>
         <h4><%= post.body %></h4>
         </article>
         <% end%>
@@ -20,3 +22,4 @@
 
 
 </main>
+
