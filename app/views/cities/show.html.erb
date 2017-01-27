@@ -14,16 +14,13 @@
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-            <h4>  <%= post.title %>  </h4>
+            <h4> <%= link_to post.title, city_post_path(post) %> </h4>
             <br>
             <span class="author"> by <em><%= post.author %></span></em></h4>
             <h4><%= post.body %></h4>
-<p>
-
-
-</p>
         </article>
         <% end%>
+        
     </section>
 
 
