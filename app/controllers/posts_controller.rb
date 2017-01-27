@@ -8,20 +8,22 @@ class PostsController < ApplicationController
     end
 
     def show
-        @post = Post.find params[:city_id]
+        @post = Post.find params[:id]
     end
 
     def new
         @city = City.find params[:city_id]
-        @post = Post.new
+
     end
 
     def create
         @city = City.find params[:city_id]
         @post = @city.posts.create(post_params)
-
-        @post.save
-        redirect_to city_path(@city)
+        if @post.save 
+            redirect_to city_path(@city)
+        else
+            redirect_to new_city_post_path(:city_id)
+        end
     end
 
     def edit
