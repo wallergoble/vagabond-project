@@ -16,15 +16,42 @@ chicago = City.create description:"WINDY CITY BABY", image_url:"http://www.diser
 paris = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris", region:"Centre", country:"France"
 
 # Initialize some posts
-atlanta_post_1 = Post.create author:"Swag", title:"Double Swag", body:"triple Swag", city_id:atlanta.id
-atlanta_post_2 = Post.create author:"Stuff", title:"Double stuff", body:"triple stuff", city_id:atlanta.id
-atlanta_post_3 = Post.create author:"Tips", title:"Double Tips", body:"triple Tips", city_id:atlanta.id
+atlanta_post_1 = Post.create author:"Swag", 
+                             title:"Double Swag",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:atlanta.id
+atlanta_post_2 = Post.create author:"Stuff", 
+                             title:"Double stuff", 
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:atlanta.id
+atlanta_post_3 = Post.create author:"Tips", 
+                             title:"Double Tips",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:atlanta.id
 
-chicago_post_1 = Post.create author:"Swag", title:"Double Swag", body:"triple Swag", city_id:chicago.id
-chicago_post_2 = Post.create author:"Stuff", title:"Double stuff", body:"triple stuff", city_id:chicago.id
-chicago_post_3 = Post.create author:"Tips", title:"Double Tips", body:"triple Tips", city_id:chicago.id
+chicago_post_1 = Post.create author:"Swag", 
+                             title:"Double Swag",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:chicago.id
+chicago_post_2 = Post.create author:"Stuff", 
+                             title:"Double stuff", 
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:chicago.id
+chicago_post_3 = Post.create author:"Tips", 
+                             title:"Double Tips",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:chicago.id
 
-paris_post_1 = Post.create author:"Swag", title:"Double Swag", body:"triple Swag", city_id:paris.id
-paris_post_2 = Post.create author:"Stuff", title:"Double stuff", body:"triple stuff", city_id:paris.id
-paris_post_3 = Post.create author:"Tips", title:"Double Tips", body:"triple Tips", city_id:paris.id
+paris_post_1 = Post.create author:"Swag", 
+                             title:"Double Swag",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:paris.id
+paris_post_2 = Post.create author:"Stuff", 
+                             title:"Double stuff", 
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:paris.id
+paris_post_3 = Post.create author:"Tips", 
+                             title:"Double Tips",  
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+                             city_id:paris.id
 

@@ -1,6 +1,19 @@
 // Place all the styles related to the Cities controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-* { 
-    border: 1px solid red;
+
+
+.tip {
+    // flex box stuff
+    justify-content: center;
+    align-items: center;
+
+    // Border stylings
+    border: 1px solid black;
+    border-radius: 2rem;
+
+    // 
+    background-color: navajowhite;
+    padding: 2rem;
+    margin: 3rem;
 }

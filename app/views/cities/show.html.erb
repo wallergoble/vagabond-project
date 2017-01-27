@@ -6,13 +6,13 @@
     <section> Put a big picture here </section>
     <section class="well"> <%= @city.description %> </section>
 
-    <section class="border">
-        <h3> Tips for <%= @city.city %> </h3>
+    <h3> Tips for <%= @city.city %> </h3>
+
+    <section class="flex-container">
 
         <%  @city.posts.each do |post| %>
-        <article class="well">
-        <h4><%= post.title %></h4>
-        <h4><%= post.author %></h4>
+        <article class="tip">
+        <h4><%= post.title %>  <span class="author"> by <%= post.author %></span></h4>
         <h4><%= post.body %></h4>
         </article>
         <% end%>
