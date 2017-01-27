@@ -28,6 +28,43 @@ atlanta_post_3 = Post.create author:"Tips",
                              title:"Double Tips",  
                              body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
                              city_id:atlanta.id
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:atlanta.id
+
 
 chicago_post_1 = Post.create author:"Swag", 
                              title:"Double Swag",  
@@ -41,6 +78,46 @@ chicago_post_3 = Post.create author:"Tips",
                              title:"Double Tips",  
                              body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
                              city_id:chicago.id
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:chicago.id
+
+
 
 paris_post_1 = Post.create author:"Swag", 
                              title:"Double Swag",  
@@ -55,3 +132,41 @@ paris_post_3 = Post.create author:"Tips",
                              body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
                              city_id:paris.id
 
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+
+Post.create author:"Swag", 
+            title:"Double Swag",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Stuff", 
+            title:"Double stuff", 
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
+Post.create author:"Tips", 
+            title:"Double Tips",  
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+            city_id:paris.id
