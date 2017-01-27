@@ -3,6 +3,8 @@
 class PostsController < ApplicationController
     def index
         @posts = Post.all
+        @posts.sort_by(&:created_at)
+
     end
 
     def show
@@ -20,6 +22,16 @@ class PostsController < ApplicationController
 
         @post.save
         redirect_to city_path(@city)
+    end
+
+    def update
+        @post = Post.find(1)
+
+        if @post.update(post_params)
+            redirect_to @post
+        else
+            render 'edit'
+        end
     end
 
     def destroy
