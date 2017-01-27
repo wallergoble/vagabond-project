@@ -4,6 +4,7 @@ class PostsController < ApplicationController
     end
 
     def show
+        puts params
         @post = Post.find params[:id]
         @city = City.find params[:city_id]
     end
