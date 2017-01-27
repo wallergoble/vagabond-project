@@ -14,6 +14,14 @@
 atlanta = City.create description:"The city in the forest.", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Atlanta", region:"Georgia", country:"United States of America"
 chicago = City.create description:"WINDY CITY BABY", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Chicago", region:"Illinois", country:"United States of America"
 paris = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris", region:"Centre", country:"France"
+City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris", region:"Centre", country:"France"
+paris1 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris1", region:"Centre", country:"France"
+paris2 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris2", region:"Centre", country:"France"
+paris3 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris3", region:"Centre", country:"France"
+paris4 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris4", region:"Centre", country:"France"
+paris5 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris5", region:"Centre", country:"France"
+paris6 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris6", region:"Centre", country:"France"
+paris7 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris7", region:"Centre", country:"France"
 
 # Initialize some posts
 atlanta_post_1 = Post.create author:"Swag", 
