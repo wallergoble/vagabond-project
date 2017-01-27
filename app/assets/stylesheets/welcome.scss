@@ -1,7 +1,10 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+.banner {
+  height: 18rem;
+  width: 70%;
+}
 .index {
   display: flex;
   flex-direction: row;
@@ -12,7 +15,8 @@
 
 
 .peek {
+  border: .2rem solid rgb(163, 163, 194);
   margin: -1rem auto;
   height: 20rem;
-  width: 24rem;
+  width: 34rem;
 }
