@@ -8,14 +8,20 @@
 
     <h3> Tips for <%= @city.city %> </h3>
 
+
+
     <section class="flex-container">
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-        <h4><%= post.title %>  
-        <br>
-        <span class="author"> by <em><%= post.author %></span></em></h4>
-        <h4><%= post.body %></h4>
+            <h4>  <%= post.title %>  </h4>
+            <br>
+            <span class="author"> by <em><%= post.author %></span></em></h4>
+            <h4><%= post.body %></h4>
+<p>
+
+
+</p>
         </article>
         <% end%>
     </section>
