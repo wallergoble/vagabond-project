@@ -25,6 +25,13 @@ body {
 
 .flex-container {
     display: flex;
+         /*flex box stuff*/
+    justify-content: center;
+    align-items: center;
+        /* Wrap into rows*/
+    flex-flow: row wrap;
+    align-content: flex-end;
+    text-align: left;
 }
 
 span.author {
