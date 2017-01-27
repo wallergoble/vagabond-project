@@ -1,0 +1,23 @@
+<%= form_for([@city, @city.posts.build]) do |f| %>
+
+  <article>
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </article>
+
+  <article>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </article>
+  
+  <article>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </article>
+  
+  <article>
+    <%= f.submit %>
+  </article>
+
+<% end %>
+
