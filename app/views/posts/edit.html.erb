@@ -1,5 +1,5 @@
-<%= form_for(@post) do |f| %>
 
+<%= form_for @post, url: {action: "update"} do |f| %>
   <article>
     <%= f.label :author %>
     <%= f.text_field :author %>
