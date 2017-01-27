@@ -1,10 +1,11 @@
 <%#put a header here%>
 
 
-    <article class="tip">
+<article class="tip">
     <h4><%= @post.title %> </h4>  
     <br>
     <span class="author"> by <em><%= @post.author %></span></em></h4>
     <h4><%= @post.body %></h4>
-    </article>
+    <p>  <%= link_to "Back", city_path(@city)  %>   </p>
+</article>
 

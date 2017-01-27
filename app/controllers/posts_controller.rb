@@ -5,12 +5,19 @@ class PostsController < ApplicationController
 
     def show
         @post = Post.find params[:id]
+        @city = City.find params[:city_id]
+    end
+
+    def new
+        @city = City.find params[:city_id]
+        @post = Post.new
     end
 
     def create
         @city = City.find params[:city_id]
-        @post = @city.cities.create(post_params)
+        @post = @city.posts.create(post_params)
 
+        @post.save
         redirect_to city_path(@city)
     end
 
@@ -24,7 +31,7 @@ class PostsController < ApplicationController
 
     private
     def post_params
-        params.require(:post).permit :body, :author, :title
+        params.require(:post).permit(:author, :title, :body)
     end
 
 end

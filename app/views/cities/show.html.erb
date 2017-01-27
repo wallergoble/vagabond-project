@@ -8,7 +8,7 @@
 
     <h3> Tips for <%= @city.city %> </h3>
 
-
+    <%= link_to 'Add a new post!', new_city_post_path(@city) %> 
 
     <section class="flex-container">
 
@@ -18,9 +18,15 @@
             <br>
             <span class="author"> by <em><%= post.author %></span></em></h4>
             <h4><%= post.body %></h4>
+
+            <p>
+            <%= link_to 'Destroy post', [post.city, post],
+                        method: :delete,
+                        data: { confirm: 'Are you sure?'} %>
+            </p>
         </article>
         <% end%>
-        
+
     </section>
 
 
