@@ -41,10 +41,10 @@ class PostsController < ApplicationController
     end
 
     def update
-        @post = Post.find(1)
+        @post = Post.find(params[:id])
 
         if @post.update(post_params)
-            redirect_to city_path(@city)
+            redirect_to city_path(@post.city_id)
         else
             render 'edit'
         end
