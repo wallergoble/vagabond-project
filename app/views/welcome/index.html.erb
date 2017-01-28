@@ -8,14 +8,15 @@
 <main class="container">
   <section class="flex-container">
     <div class="index">
-      <% @cities.each do |city| %>
-      <a href="/cities/<%= city.id %>">
-      <h4><%= city.city %></h4>
+      <% @cities[0..5].each do |city| %>
+        <a href="/cities/<%= city.id %>">
+        <h4><%= city.city %></h4>
 
-      <img class="peek" src="<%= city.image_url %>">
-      <br>
-      <br>
+        <img class="peek" src="<%= city.image_url %>">
+        <br>
+        <br>
       <% end %>
+
     </div>
   </section>
 </main>
