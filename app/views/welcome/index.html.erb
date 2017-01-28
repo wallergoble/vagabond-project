@@ -9,8 +9,7 @@
   <section class="flex-container">
     <div class="index">
       <% @cities.each do |city| %>
-      <a href="/cities/<%= city.id %>">
-      <h4><%= city.city %></h4>
+      <h4><%= link_to city.city, city_path(city.id) %>"</h4>
 
       <img class="peek" src="<%= city.image_url %>">
       <br>
