@@ -21,13 +21,7 @@
             <span class="author"> by <em><%= post.author %></span></em></h4>
             <h4><%= post.body %></h4>
 
-            <p>
 
-            <%= link_to 'Edit',   edit_city_post_path(post.city_id, post.id) %>
-            <%= link_to 'Delete', [post.city, post],
-                        method: :delete,
-                        data: { confirm: 'Are you sure?'} %>
-            </p>
         </article>
         <% end %>
       </div>
