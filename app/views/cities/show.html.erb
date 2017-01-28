@@ -15,7 +15,7 @@
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-            <h4> <%= link_to post.title, city_post_path(post.city_id, post.id) %> </h4>
+            <h4> <%= link_to post.title, city_post_path(@city.city, 7) %> </h4>
 
             <br>
             <span class="author"> by <em><%= post.author %></span></em></h4>
