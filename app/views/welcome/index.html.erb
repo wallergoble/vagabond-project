@@ -4,6 +4,18 @@
 
 
 <h2>Click On A City To Get Started</h2>
+<section>
+  <%= form_tag(cities_path method: :get) do %>
+    <%= text_field_tag :term, params[:term] %>
+    <%= submit_tag 'Search' %>
+  <% end %>
+      <% for city in @cities %>
+        <div class='search'>
+            <strong> <%= city.city %> </strong>
+        </div>
+        <%#<%= link_to 'Edit', edit_city_path(city) %>
+      <% end %>
+</section>     
 
 <main class="container">
   <section class="flex-container">

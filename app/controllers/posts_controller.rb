@@ -1,10 +1,10 @@
 
 
 class PostsController < ApplicationController
+    
     def index
         @posts = Post.all
         @posts.sort_by(&:created_at)
-
     end
 
     def show
