@@ -19,7 +19,7 @@
     border: .2rem solid rgb(163, 163, 194);
     padding: 1rem;
     margin: 1rem;
-    width: 100%;
+
 }
 
 .one {
@@ -27,4 +27,8 @@
   margin: -1rem auto;
   height: 25rem;
   width: 40rem;
+}
+
+.container {
+  max-width: 1000px;
 }
