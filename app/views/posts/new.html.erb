@@ -1,22 +1,23 @@
 <%= form_for([@city, @city.posts.build]) do |f| %>
-
+<div class="container">
   <article>
     <%= f.label :author %>
-    <%= f.text_field :author %>
+    <%= f.text_field :author, :class => "form-control" %>
   </article>
 
   <article>
     <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :class => "form-control" %>
   </article>
   
   <article>
     <%= f.label :body %>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, :class => "form-control" %>
   </article>
   
   <article>
-    <%= f.submit %>
+    <%= f.submit class: 'btn btn-primary custom-button' %>
   </article>
+</div>
 
 <% end %>
