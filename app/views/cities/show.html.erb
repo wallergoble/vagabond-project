@@ -1,5 +1,4 @@
 <%= render 'partials/header' %>
-<h1> Hello from City Show </h1>
 
 <main class="container">
     <h1> <%= @city.city %> </h1>
@@ -18,6 +17,7 @@
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
+            <%# Have to feed the path @city.city to display city name in the url%>
             <h4> <%= link_to post.title, city_post_path(@city.city, post.id) %> </h4>
 
             <br>
