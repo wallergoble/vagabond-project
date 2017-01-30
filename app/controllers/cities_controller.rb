@@ -1,6 +1,11 @@
 class CitiesController < ApplicationController
+    
     def index
-        @cities = City.all.order("created_at DESC")
+        if params[:search]
+            @cities = City.search(params[:search]).order("created_at DESC")
+        else
+            @cities = City.all.order("created_at DESC")
+        end
     end
 
     def show

@@ -1,15 +1,9 @@
-<%= render 'partials/header' %>
-<div class="relative">
-<img class="banner" src="http://www.hotel-r.net/im/hotel/pl/cityscape-21.jpg" alt="Banner Img">
-<h1 class="absolute-text">City Skylines</a></h1>
-</div>
-
 <h2>Click On A City To Get Started</h2>
 
 <main class="container">
   <section class="flex-container">
     <div class="index">
-      <% @cities[0..5].each do |city| %>
+      <% @cities.each do |city| %>
         <a href="/cities/<%= city.id %>">
         <h4><%= city.city %></h4>
 
@@ -21,4 +15,3 @@
     </div>
   </section>
 </main>
-<%= render 'partials/footer' %>

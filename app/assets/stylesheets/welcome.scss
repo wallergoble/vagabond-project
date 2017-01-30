@@ -1,7 +1,11 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.relative{position:relative; width:100%;}
+.absolute-text{position:absolute; top:0; margin: 0px; width:100%; text-align:center; font-size: 50px}
+
 .banner {
+  margin-top: -2rem;
   height: 28rem;
   width: 100%;
 }
