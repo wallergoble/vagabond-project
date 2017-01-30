@@ -12,11 +12,11 @@
 
 # Initialize some cities
 atlanta = City.create description:"The city in the forest.", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Atlanta", region:"Georgia", country:"United States of America"
-chicago = City.create description:"WINDY CITY BABY", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Chicago", region:"Illinois", country:"United States of America"
-paris = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris", region:"Centre", country:"France"
-City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Paris", region:"Centre", country:"France"
-paris1 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"London", region:"Centre", country:"France"
-paris2 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Hong Kong", region:"Centre", country:"France"
+chicago = City.create description:"WINDY CITY BABY", image_url:"http://wallpapercave.com/wp/ZZ9vHOA.jpg", city:"Chicago", region:"Illinois", country:"United States of America"
+paris = City.create description:"Where cheese is made", image_url:"http://dhwall.com/wp-content/uploads/2011/09/IMG_7680-paris-skyline-landscape.jpg", city:"Paris", region:"Centre", country:"France"
+City.create description:"Where cheese is made", image_url:"https://upload.wikimedia.org/wikipedia/commons/1/1e/Alamo_pano.jpg", city:"San Antonio", region:"Centre", country:"France"
+paris1 = City.create description:"Where cheese is made", image_url:"http://rwrant.co.za/wp-content/uploads/2010/03/LondonSkyline.jpg", city:"London", region:"Centre", country:"France"
+paris2 = City.create description:"Where cheese is made", image_url:"https://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_Night_Skyline.jpg", city:"Hong Kong", region:"Centre", country:"France"
 paris3 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Swagland", region:"Centre", country:"France"
 paris4 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"Montreal", region:"Centre", country:"France"
 paris5 = City.create description:"Where cheese is made", image_url:"http://www.diserio.com/atlantaskyline.jpg", city:"New York", region:"Centre", country:"France"
@@ -24,157 +24,157 @@ paris6 = City.create description:"Where cheese is made", image_url:"http://www.d
 
 
 # Initialize some posts
-atlanta_post_1 = Post.create author:"Traveler267", 
-                             title:"The O4W park is great for dog watching",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+atlanta_post_1 = Post.create author:"Traveler267",
+                             title:"The O4W park is great for dog watching",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:atlanta.id
-atlanta_post_2 = Post.create author:"Foodie420", 
-                             title:"Review of the Varsity", 
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+atlanta_post_2 = Post.create author:"Foodie420",
+                             title:"Review of the Varsity",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:atlanta.id
-atlanta_post_3 = Post.create author:"PersonWithLowEmpathy", 
-                             title:"Traffic!!!!!!!!!",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+atlanta_post_3 = Post.create author:"PersonWithLowEmpathy",
+                             title:"Traffic!!!!!!!!!",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:atlanta.id
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:atlanta.id
 
 
-chicago_post_1 = Post.create author:"Chilliboi", 
-                             title:"It Actually Is Incredibly Windy Here",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+chicago_post_1 = Post.create author:"Chilliboi",
+                             title:"It Actually Is Incredibly Windy Here",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:chicago.id
-chicago_post_2 = Post.create author:"iheartkim", 
-                             title:"Did you know Kanye West was born here?", 
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+chicago_post_2 = Post.create author:"iheartkim",
+                             title:"Did you know Kanye West was born here?",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:chicago.id
-chicago_post_3 = Post.create author:"yuppu", 
-                             title:"I hate the bars here",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+chicago_post_3 = Post.create author:"yuppu",
+                             title:"I hate the bars here",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:chicago.id
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:chicago.id
-
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:chicago.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:chicago.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
 
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:chicago.id
+
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:chicago.id
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:chicago.id
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:chicago.id
 
 
 
-paris_post_1 = Post.create   author:"parisjtaime", 
-                             title:"This is the city of love!",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+paris_post_1 = Post.create   author:"parisjtaime",
+                             title:"This is the city of love!",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:paris.id
-paris_post_2 = Post.create author:"foodie420", 
-                             title:"The food here isn't actually that great", 
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+paris_post_2 = Post.create author:"foodie420",
+                             title:"The food here isn't actually that great",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:paris.id
-paris_post_3 = Post.create   author:"olfactoryollthetime", 
-                             title:"This place smells weird",  
-                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+paris_post_3 = Post.create   author:"olfactoryollthetime",
+                             title:"This place smells weird",
+                             body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
                              city_id:paris.id
 
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:paris.id
-
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:paris.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
-            city_id:paris.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
 
-Post.create author:"Swag", 
-            title:"Double Swag",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
-Post.create author:"Stuff", 
-            title:"Double stuff", 
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
-Post.create author:"Tips", 
-            title:"Double Tips",  
-            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.", 
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:paris.id
+
+Post.create author:"Swag",
+            title:"Double Swag",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:paris.id
+Post.create author:"Stuff",
+            title:"Double stuff",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
+            city_id:paris.id
+Post.create author:"Tips",
+            title:"Double Tips",
+            body:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi suscipit at optio officia quae velit, laborum vitae illum corrupti cupiditate sapiente totam recusandae. Corporis nobis velit incidunt, eum eligendi.",
             city_id:paris.id
