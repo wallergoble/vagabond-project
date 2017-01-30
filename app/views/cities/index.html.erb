@@ -1,17 +1,29 @@
-<h2>Click On A City To Get Started</h2>
+<%# This takes care of invalid search terms.%>
+<% if @cities.blank? %>
+<br>
+<br>
+<br>
+<div class="alert-warning">
+  <h1>Sorry! There are no cities containing the term "<%= params[:search] %>".</h1>
 
-<main class="container">
-  <section class="flex-container">
-    <div class="index">
-      <% @cities.each do |city| %>
-        <a href="/cities/<%= city.id %>">
-        <h4><%= city.city %></h4>
+  <a href="/" style="text-align: center"><h5> Click here to return to the home page and try again! </h5></a>
+</div>
+<% elsif @cities %>
+  <h2>Click On A City To Get Started</h2>
 
-        <img class="peek" src="<%= city.image_url %>">
-        <br>
-        <br>
-      <% end %>
+  <main class="container">
+    <section class="flex-container">
+      <div class="index">
+        <% @cities.each do |city| %>
+          <a href="/cities/<%= city.id %>">
+          <h4><%= city.city %></h4>
 
-    </div>
-  </section>
-</main>
+          <img class="peek" src="<%= city.image_url %>">
+          <br>
+          <br>
+        <% end %>
+
+      </div>
+    </section>
+  </main>
+<% end %>
