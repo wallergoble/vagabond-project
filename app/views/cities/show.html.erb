@@ -1,7 +1,7 @@
 <%= render 'partials/header' %>
 <h1> Hello from City Show </h1>
 
-<main class="container-fluid">
+<main class="container">
     <h1> <%= @city.city %> </h1>
     <section>
       <img class="one" src="<%= @city.image_url %>">
@@ -13,7 +13,7 @@
 
     <%= link_to 'Add a new post!', new_city_post_path(@city) %>
 
-    <section class="container">
+    <section class="flex-container">
       <div class="index">
 
         <%  @city.posts.each do |post| %>
