@@ -5,8 +5,10 @@
       <a class= 'navbar-brand' href='/'> City Skylines</a>
     </div>
     <div class= 'collapse navbar-collapse'>
-      <ul class= 'nav navbar-nav navbar-right'>
-      </ul>
+      <%= form_tag(cities_path, :method => "get", id: "search-form") do %>
+        <%= text_field_tag :search, params[:search], placeholder: "Find your city" %>
+        <%= submit_tag "Search", :name => nil, class:"btn btn-outline-success my-2 my-sm-0" %>
+      <% end %>
     </div>
   </div>
 </nav>
@@ -15,7 +17,7 @@
   <head>
     <meta charset="utf-8">
     <title>City Skylines</title>
-    <!--<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
--->
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
   </head>
   <body>
