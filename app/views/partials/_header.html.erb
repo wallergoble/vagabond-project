@@ -5,7 +5,7 @@
       <a class= 'navbar-brand' href='/'> City Skylines</a>
     </div>
     <div class= 'collapse navbar-collapse'>
-      <%= form_tag(cities_path, :method => "get", id: "search-form") do %>
+      <%= form_tag(cities_path, :method => "get", id: "search-form", class: "form-inline my-2 my-lg-0 navbar-right") do %>
         <%= text_field_tag :search, params[:search], placeholder: "Find your city" %>
         <%= submit_tag "Search", :name => nil, class:"btn btn-outline-success my-2 my-sm-0" %>
       <% end %>
