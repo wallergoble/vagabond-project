@@ -1,21 +1,19 @@
-<!DOCTYPE html>
+
 <nav class= 'navbar navbar-default'>
   <div class= 'container-fluid'>
     <div class= 'navbar-header'>
       <a class= 'navbar-brand' href='/'> City Skylines</a>
     </div>
     <div class= 'collapse navbar-collapse'>
-      <ul class= 'nav navbar-nav navbar-right'>
-      </ul>
+
+    <%# This is the search form in the navbar %>
+      <%= form_tag(cities_path, :method => "get", id: "search-form", class: "form-inline my-2 my-lg-0 navbar-right") do %>
+      <%# This passes a search term to the params object%>
+
+        <%= text_field_tag :search, params[:search], placeholder: "Find your city" %>
+        <%# The name nil gives us a slightly prettier url %>
+        <%= submit_tag "Search", :name => nil, class:"btn btn-outline-success my-2 my-sm-0" %>
+      <% end %>
     </div>
   </div>
 </nav>
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>City Skylines</title>
-    <!--<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
--->
-  </head>
-  <body>

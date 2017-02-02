@@ -15,9 +15,20 @@
     // text-align: left;
 
     // Border stylings
-    background-color: rgb(145, 173, 178);
+    background-color: rgb(156, 178, 173);
     border: .2rem solid rgb(163, 163, 194);
     padding: 1rem;
     margin: 1rem;
-    width: 100%;
+
+}
+
+.one {
+  border: .2rem solid rgb(163, 163, 194);
+  margin: -1rem auto;
+  height: 25rem;
+  width: 40rem;
+}
+
+.container {
+  max-width: 1000px;
 }

@@ -1,10 +1,12 @@
 <%= render 'partials/header' %>
-<h1> Hello from City Show </h1>
 
 <main class="container">
     <h1> <%= @city.city %> </h1>
-    <section> Put a big picture here </section>
-    <section class="well"> <%= @city.description %> </section>
+    <section>
+      <img class="one" src="<%= @city.image_url %>">
+    </section>
+    <br>
+    <section class="tip"><h4> <%= @city.description %> </h4></section>
 
     <h3> Tips for <%= @city.city %> </h3>
 
@@ -15,7 +17,8 @@
 
         <%  @city.posts.each do |post| %>
         <article class="tip">
-            <h4> <%= link_to post.title, city_post_path(post.city_id, post.id) %> </h4>
+            <%# Have to feed the path @city.city to display city name in the url%>
+            <h4> <%= link_to post.title, city_post_path(@city.city, post.id) %> </h4>
 
             <br>
             <span class="author"> by <em><%= post.author %></span></em></h4>
@@ -28,3 +31,4 @@
     </section>
 
 </main>
+<%= render 'partials/footer' %>

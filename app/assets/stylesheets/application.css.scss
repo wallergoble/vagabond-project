@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 208);
+    background-color: #e0e0e0;
     text-align: center;
 }
 
@@ -39,4 +39,7 @@ body {
 span.author {
     font-size: 1rem;
     font-weight: 100;
+}
+.well {
+  text-align: left
 }
